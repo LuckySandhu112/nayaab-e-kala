@@ -1,0 +1,20 @@
+// Version: 1.0.0
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Submission__767307107 =
+  {
+    age : Nat;
+    contactNumber : Text;
+    courseSelection : Text;
+    email : Text;
+    id : Nat;
+    name : Text
+  };
+actor {
+  stable submissions :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Submission__767307107]];
+      var elementIndex : Nat__490723111
+    }
+};

@@ -1,0 +1,23 @@
+{
+  "overview": "A modern, responsive art studio website for NAYAAB-E-KALA with an elegant wine, black, and white color palette. Features a hero section, course listings, student gallery, admissions form, and contact details — designed with artistic brush stroke elements and smooth animations.",
+  "features": [
+    "Hero section with studio name and bilingual tagline",
+    "Course listings with levels and duration",
+    "Student gallery with lightbox",
+    "Admissions form with backend submission",
+    "Contact section with studio details",
+    "Wine, black, and white artistic design",
+    "Fully responsive mobile and desktop layout",
+    "Smooth scroll animations and hover effects"
+  ],
+  "category": "website",
+  "tags": [
+    "art-studio",
+    "admissions",
+    "gallery",
+    "portfolio",
+    "wine-theme",
+    "responsive"
+  ],
+  "last_updated": "2026-05-03T15:11:51.193Z"
+}

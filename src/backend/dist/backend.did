@@ -1,0 +1,19 @@
+type SubmitResult = 
+ variant {
+   err: text;
+   ok: nat;
+ };
+type Submission = 
+ record {
+   age: nat;
+   contactNumber: text;
+   courseSelection: text;
+   email: text;
+   id: nat;
+   name: text;
+ };
+service : {
+  getAdmissions: () -> (vec Submission) query;
+  submitAdmission: (name: text, age: nat, contactNumber: text, email: 
+   text, courseSelection: text) -> (SubmitResult);
+}
